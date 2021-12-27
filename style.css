@@ -63,7 +63,7 @@ ul.nav li:hover {
 
 @media all and (max-width: 35em) {
   .main {
-    width: 100vw;
+    width: calc(100vw - 20px);
   }
 }
 
