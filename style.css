@@ -25,7 +25,7 @@ header {
   border-top: solid 2px var(--primary);
   text-align: center;
   padding: 10px;
-  display flex;
+  display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
 }
