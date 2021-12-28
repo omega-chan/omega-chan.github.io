@@ -73,7 +73,7 @@ header {
   display: flex;
   align-items: center;
   flex-wrap: wrap;
-  justify-content: center;
+  justify-content: space-evenly;
 }
 
 header img {
@@ -110,7 +110,7 @@ footer {
   display: flex;
   align-items: center;
   flex-wrap: wrap;
-  justify-content: center;
+  justify-content: space-evenly;
 }
 
 /*ヘッダー・フッター共通*/
