@@ -99,6 +99,18 @@ ul.nav li:hover {
   transform: scale(1.1);
 }
 
+.title {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.title img {
+  height: 40px;
+}
+
 /*フッター*/
 footer {
   width: calc(100vw - 40px);
@@ -114,17 +126,12 @@ footer {
   justify-content: space-evenly;
 }
 
-/*ヘッダー・フッター共通*/
-.title {
+.accesscounter {
   display: flex;
-  flex-direction: row;
-  align-items: center;
-  flex-wrap: wrap;
-  justify-content: center;
 }
 
-.title img {
-  height: 40px;
+.accesscounter img {
+  height: 1em;
 }
 
 /*その他*/
