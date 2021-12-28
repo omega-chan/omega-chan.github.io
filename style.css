@@ -93,6 +93,13 @@ ul.nav li:hover {
   transform: scale(1.1);
 }
 
+.title {
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  align-items: center;
+}
+
 /*その他*/
 ::selection {
   background-color: var(--primary-light);
