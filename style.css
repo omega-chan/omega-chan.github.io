@@ -1,3 +1,4 @@
+/*共通*/
 :root {
   --primary: #e45858;
   --primary-light: #e39999;
@@ -15,55 +16,6 @@
 
 body {
   background-color: var(--black);
-}
-
-header {
-  width: calc(100vw - 20px);
-  background-color: var(--gray);
-  color: var(--white);
-  border-bottom: solid 2px var(--primary);
-  border-top: solid 2px var(--primary);
-  text-align: center;
-  padding: 10px;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-evenly;
-}
-
-ul.nav {
-  list-style-type: none;
-  padding: 0;
-}
-
-ul.nav li {
-  display: inline-block;
-  background-color: var(--primary);
-  border-radius: 10px;
-  padding: 7px;
-  margin: 10px;
-  transition: transform 0.3s;
-}
-
-ul.nav li:hover {
-  transform: scale(1.1);
-}
-
-.container {
-  width: 100vw;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-.main {
-  width: 35em;
-  padding: 10px;
-}
-
-@media all and (max-width: 35em) {
-  .main {
-    width: calc(100vw - 20px);
-  }
 }
 
 h1 {
@@ -86,6 +38,62 @@ a {
   text-decoration: none;
 }
 
+/*ページ体裁*/
+.container {
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.main {
+  width: 35em;
+  padding: 10px;
+}
+
+@media all and (max-width: 45em) {
+  .main {
+    width: calc(100vw - 20px);
+  }
+}
+
+/*ヘッダー*/
+header {
+  width: calc(100vw - 20px);
+  background-color: var(--gray);
+  color: var(--white);
+  border-bottom: solid 2px var(--primary);
+  border-top: solid 2px var(--primary);
+  text-align: center;
+  padding: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+header img {
+  height: 40px;
+}
+
+ul.nav {
+  list-style-type: none;
+  padding: 0;
+}
+
+ul.nav li {
+  display: inline-block;
+  background-color: var(--primary);
+  border-radius: 10px;
+  padding: 7px;
+  margin: 10px;
+  transition: transform 0.3s;
+}
+
+ul.nav li:hover {
+  transform: scale(1.1);
+}
+
+/*その他*/
 ::selection {
   background-color: var(--primary-light);
   color: var(--white);
