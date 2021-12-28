@@ -97,6 +97,25 @@ ul.nav li:hover {
   transform: scale(1.1);
 }
 
+/*フッター*/
+footer {
+  width: calc(100vw - 20px);
+  background-color: var(--gray);
+  color: var(--white);
+  border-bottom: solid 2px var(--primary);
+  border-top: solid 2px var(--primary);
+  text-align: center;
+  padding: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+header img {
+  height: 40px;
+}
+
+/*ヘッダー・フッター共通*/
 .title {
   display: flex;
   flex-direction: row;
