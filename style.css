@@ -107,20 +107,22 @@ footer {
   text-align: center;
   padding: 10px;
   display: flex;
+  align-items: center;
   flex-wrap: wrap;
-  justify-content: space-evenly;
-}
-
-header img {
-  height: 40px;
+  justify-content: center;
 }
 
 /*ヘッダー・フッター共通*/
 .title {
   display: flex;
   flex-direction: row;
-  align-content: center;
   align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.title img {
+  height: 40px;
 }
 
 /*その他*/
