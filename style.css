@@ -63,7 +63,7 @@ img {
 
 /*ヘッダー*/
 header {
-  width: calc(100vw - 20px);
+  width: calc(100vw - 40px);
   background-color: var(--gray);
   color: var(--white);
   border-bottom: solid 2px var(--primary);
@@ -101,7 +101,7 @@ ul.nav li:hover {
 
 /*フッター*/
 footer {
-  width: calc(100vw - 20px);
+  width: calc(100vw - 40px);
   background-color: var(--gray);
   color: var(--white);
   border-bottom: solid 2px var(--primary);
