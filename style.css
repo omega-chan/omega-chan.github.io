@@ -71,8 +71,9 @@ header {
   text-align: center;
   padding: 10px;
   display: flex;
+  align-items: center;
   flex-wrap: wrap;
-  justify-content: space-evenly;
+  justify-content: center;
 }
 
 header img {
