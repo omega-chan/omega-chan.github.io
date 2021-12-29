@@ -57,7 +57,7 @@ img {
 
 /*ページ体裁*/
 .container {
-  width: 100vw;
+  width: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -70,13 +70,13 @@ img {
 
 @media all and (max-width: 45em) {
   .main {
-    width: calc(100vw - 20px);
+    width: calc(100% - 20px);
   }
 }
 
 /*ヘッダー、フッター*/
 header,footer {
-  width: calc(100vw - 40px);
+  width: calc(100% - 40px);
   background-color: var(--gray);
   color: var(--white);
   border-bottom: solid 2px var(--primary);
