@@ -42,6 +42,18 @@ img {
   max-width: 100%;
 }
 
+.button {
+  display: inline-block;
+  background-color: var(--primary);
+  border-radius: 10px;
+  padding: 7px;
+  transition: transform 0.3s;
+}
+
+.button:hover {
+  transform: scale(1.1);
+}
+
 /*ページ体裁*/
 .container {
   width: 100vw;
@@ -61,8 +73,8 @@ img {
   }
 }
 
-/*ヘッダー*/
-header {
+/*ヘッダー、フッター*/
+header,footer {
   width: calc(100vw - 40px);
   background-color: var(--gray);
   color: var(--white);
@@ -86,17 +98,8 @@ ul.nav {
 }
 
 ul.nav li {
-  display: inline-block;
-  background-color: var(--primary);
-  border-radius: 10px;
-  padding: 7px;
   margin-left: 10px;
   margin-right: 10px;
-  transition: transform 0.3s;
-}
-
-ul.nav li:hover {
-  transform: scale(1.1);
 }
 
 .title {
@@ -109,29 +112,6 @@ ul.nav li:hover {
 
 .title img {
   height: 40px;
-}
-
-/*フッター*/
-footer {
-  width: calc(100vw - 40px);
-  background-color: var(--gray);
-  color: var(--white);
-  border-bottom: solid 2px var(--primary);
-  border-top: solid 2px var(--primary);
-  text-align: center;
-  padding: 20px;
-  display: flex;
-  align-items: center;
-  flex-wrap: wrap;
-  justify-content: space-evenly;
-}
-
-.accesscounter {
-  display: flex;
-}
-
-.accesscounter img {
-  height: 1em;
 }
 
 /*その他*/
