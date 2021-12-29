@@ -95,6 +95,7 @@ header img {
 ul.nav {
   list-style-type: none;
   padding: 0;
+  display: flex;
 }
 
 ul.nav li {
