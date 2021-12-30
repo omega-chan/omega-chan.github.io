@@ -87,6 +87,7 @@ header,footer {
   align-items: center;
   flex-wrap: wrap;
   justify-content: space-evenly;
+  gap: 10px;
 }
 
 header img {
@@ -97,11 +98,7 @@ ul.nav {
   list-style-type: none;
   padding: 0;
   display: flex;
-}
-
-ul.nav li {
-  margin-left: 10px;
-  margin-right: 10px;
+  gap: 20px;
 }
 
 .title {
@@ -110,6 +107,7 @@ ul.nav li {
   align-items: center;
   flex-wrap: wrap;
   justify-content: center;
+  gap: 10px;
 }
 
 .title img {
