@@ -12,12 +12,13 @@
   margin: 0;
   font-family: "Noto Sans JP";
   font-size: 20px;
-  color: var(--black);
+  color: inherit;
   scroll-behavior: smooth;
 }
 
 body {
   background-color: var(--white);
+  color: var(--black);
 }
 
 h1 {
