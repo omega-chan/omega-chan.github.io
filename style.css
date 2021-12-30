@@ -2,21 +2,22 @@
 :root {
   --primary: #e45858;
   --primary-light: #e39999;
-  --white: #eeeeee;
+  --secondary: #1ba7a7;
+  --white: #f4f5f7;
   --black: #333333;
-  --gray: #555555;
+  --gray: #b4b5b7;
 }
 
 * {
   margin: 0;
   font-family: "Noto Sans JP";
   font-size: 20px;
-  color: var(--white);
+  color: var(--black);
   scroll-behavior: smooth;
 }
 
 body {
-  background-color: var(--black);
+  background-color: var(--white);
 }
 
 h1 {
@@ -59,6 +60,21 @@ img {
   transform: scale(1);
 }
 
+.button.white {
+  background-color: var(--white);
+  color: var(--primary);
+}
+
+.button.black {
+  background-color: var(--black);
+  color: var(--primary);
+}
+
+.button.secondary {
+  background-color: var(--secondary);
+  color: var(--white);
+}
+
 /*ページ体裁*/
 .container {
   width: 100%;
@@ -81,10 +97,8 @@ img {
 /*ヘッダー、フッター*/
 header,footer {
   width: calc(100% - 40px);
-  background-color: var(--gray);
+  background-color: var(--primary);
   color: var(--white);
-  border-bottom: solid 2px var(--primary);
-  border-top: solid 2px var(--primary);
   text-align: center;
   padding: 20px;
   display: flex;
