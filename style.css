@@ -55,6 +55,10 @@ img {
   transform: scale(1.1);
 }
 
+.button:active {
+  transform: scale(1);
+}
+
 /*ページ体裁*/
 .container {
   width: 100%;
