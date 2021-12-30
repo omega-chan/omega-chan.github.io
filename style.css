@@ -114,6 +114,12 @@ ul.nav {
   height: 40px;
 }
 
+@media all and (max-width: 600px) {
+  .icon {
+    display: none;
+  }
+}
+
 /*その他*/
 ::selection {
   background-color: var(--primary-light);
