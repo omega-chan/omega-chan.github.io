@@ -117,12 +117,14 @@ header {
   top: 0;
   backdrop-filter: blur(15px);
   -webkit-backdrop-filter: blur(15px);
+  pointer-events: all;
 }
 
 .header-area {
   height: 300px;
   width: 100%;
   position: absolute;
+  pointer-events: none;
 }
 
 .header-first-position {
