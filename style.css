@@ -6,6 +6,7 @@
   --white: #f4f5f7;
   --black: #333333;
   --gray: #e4e5e7;
+  --clear-gray: rgba(228,229,231,0.5);
 }
 
 * {
@@ -98,7 +99,7 @@ img {
 /*ヘッダー、フッター*/
 header,footer {
   width: calc(100% - 40px);
-  background-color: var(--gray);
+  background-color: var(--clear-gray);
   border-top: solid 3px var(--primary);
   border-bottom: solid 3px var(--primary);
   color: var(--black);
@@ -109,6 +110,18 @@ header,footer {
   flex-wrap: wrap;
   justify-content: space-evenly;
   gap: 10px;
+}
+
+header {
+  position: sticky;
+  top: 0;
+  backdrop-filter: blur(15px);
+}
+
+.header-area {
+  height: 300px;
+  width: 100%;
+  position: absolute;
 }
 
 header img {
