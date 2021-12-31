@@ -128,10 +128,6 @@ header {
   height: 89px;
 }
 
-header img {
-  height: 40px;
-}
-
 ul.nav {
   list-style-type: none;
   padding: 0;
@@ -149,7 +145,7 @@ ul.nav {
 }
 
 .title img {
-  height: 40px;
+  height: 50px;
 }
 
 @media all and (max-width: 600px) {
