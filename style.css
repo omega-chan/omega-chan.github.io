@@ -124,6 +124,10 @@ header {
   position: absolute;
 }
 
+.header-first-position {
+  height: 89px;
+}
+
 header img {
   height: 40px;
 }
