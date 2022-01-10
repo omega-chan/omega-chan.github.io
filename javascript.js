@@ -1,4 +1,4 @@
 $(function() {
-  $("header").load("header.html");
-  $("footer").load("footer.html");
+  $("header").load("https://omega-chan.github.io/header.html");
+  $("footer").load("https://omega-chan.github.io/footer.html");
 });
